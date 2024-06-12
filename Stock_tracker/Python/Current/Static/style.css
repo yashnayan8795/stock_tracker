@@ -1,0 +1,61 @@
+#tickers-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+b.stock-box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 10px;
+    transition: background-color 8.5s;
+    background: #eee;
+}
+#add-ticker-form{
+    justify-content: center;
+}
+.dark-red {
+    color: #880000;
+}
+.red {
+    color: #FF0000;
+} 
+.gray {
+    color: #888880;
+}
+.green{
+    color: #00BB00;
+}
+.light-green{
+    color: #006600;
+}
+#tickers-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.stock-box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+}
+.updated {
+    transition: background-color 1s;
+    background-color: #FFCCCC !important;  
+    /* light red */
+}
+.red-flash {
+    transition: background-color 1s;
+    background-color: #FFCCCC !important; 
+    /* light red */
+}  
+.green-flash {
+    transition: background-color 1s;
+    background-color: #CCFFCC !important;/* light green */
+}    
+.gray-flash {
+    transition: background-color 1s;
+    background-color: #CCC !important; /* light green */
+}
