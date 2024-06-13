@@ -22,7 +22,7 @@ Features:
 
   1.Clone the repository:
   
-    git clone https://github.com/yourusername/stock-price-tracker.git
+    git clone https://github.com/yourusername/stock_tracker.git
     cd Stock_tracker
   
   2.Create and activate a virtual environment:
